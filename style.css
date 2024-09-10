@@ -23,15 +23,15 @@ body {
 
 #generator {
   margin-bottom: 10px;
-  width: 16%;
-  height: 5%;
+  width: fit-content;
+  height: fit-content;
   background-color: #e63a3a;
   border-color: #b31717;
   border-style: solid;
   color: white;
   border-radius: 10px;
   font-family: "Futura";
-  font-size: 180%;
+  font-size: 3vh;
   transition: scale 0.1s ease-in-out;
 }
 
