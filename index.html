@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="utf-8">
@@ -10,8 +9,16 @@
   
   <body>
     <div class="center">
-      <button id="generator">Random Episode</button>
-      <br>
+      <div id="buttons">
+        <select id="show" oninput="selectShow()">
+          <option value="spongebob">Spongebob</option>
+          <option value="adventure_time">Adventure Time</option>
+          <option value="regular_show">Regular Show</option>
+          <option value="gumball">Gumball</option>
+        </select>
+        <button id="generator">Random Episode</button>
+      </div>
+      <div class="break"></div>
       <iframe id="video" width=960 height=540 allowfullscreen=true src="https://www.bouncingdvdlogo.com/"></iframe>
     </div>
   
