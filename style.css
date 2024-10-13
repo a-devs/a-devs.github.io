@@ -22,7 +22,8 @@ body {
 }
 
 #generator {
-  margin-bottom: 10px;
+  margin-bottom: auto;
+  margin-top: auto;
   width: fit-content;
   height: fit-content;
   background-color: #e63a3a;
@@ -53,7 +54,30 @@ body {
   height: 100vh; /* Full viewport height */
 }
 
+#buttons {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: calc(fit-content + 10%);
+  gap: 12px;
+  z-index: 50;
+}
+
+#show {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  font-family: "Arial";
+  font-weight: bold;
+  border-radius: 5px;
+}
+
 #video {
   opacity: 0;
   border-radius: 5px;
+}
+
+.break {
+  height: 1vh;
 }
